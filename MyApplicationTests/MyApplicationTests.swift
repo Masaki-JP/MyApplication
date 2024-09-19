@@ -29,9 +29,10 @@ final class MyApplicationTests: XCTestCase {
     }
 
     func testPerformanceExample() throws {
-        // This is an example of a performance test case.
         self.measure {
-            // Put the code you want to measure the time of here.
+            let array = [1, 5, 3, 6, 2, 4]
+            let sortedArray = array.sorted()
+            XCTAssertEqual(sortedArray, [1, 2, 3, 4, 5, 6])
         }
     }
 
