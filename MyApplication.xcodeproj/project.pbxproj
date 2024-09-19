@@ -75,7 +75,6 @@
 		4C4F436F2C9C84660075029A = {
 			isa = PBXGroup;
 			children = (
-				4C4F43A62C9C87E70075029A /* .github */,
 				4C4F437A2C9C84660075029A /* MyApplication */,
 				4C4F438B2C9C84670075029A /* MyApplicationTests */,
 				4C4F43952C9C84670075029A /* MyApplicationUITests */,
@@ -91,13 +90,6 @@
 				4C4F43922C9C84670075029A /* MyApplicationUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4C4F43A62C9C87E70075029A /* .github */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = .github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
