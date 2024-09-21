@@ -6,7 +6,7 @@ on:
 
 jobs:
   unit-tests:
-    name: Run Test On PR
+    name: Run Test On Push To Main Branch
     runs-on: macos-latest
 
     steps:
